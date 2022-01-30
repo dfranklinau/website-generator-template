@@ -1,0 +1,9 @@
+<figure>
+  <div>
+    <img src="{{params.src}}" alt="{{params.alt}}"/>
+  </div>
+
+  {{#if params.caption}}
+    <figcaption>{{&params.caption}}</figcaption>
+  {{/if}}
+</figure>

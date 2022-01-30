@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{#if head.title}}
+      <title>{{head.title}} / {{config.title}}</title>
+    {{else}}
+      <title>{{config.title}}</title>
+    {{/if}}
+
+    {{> head}}
+  </head>
+  <body>
+    {{> header}}
+
+    <div class="container">
+      <main class="main" id="main">
+          {{&content}}
+      </main>
+    </div>
+
+    {{> footer}}
+    <script type="text/javascript" src="/main.js"></script>
+  </body>
+</html>

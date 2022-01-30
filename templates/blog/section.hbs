@@ -1,0 +1,16 @@
+<h1 class="title">{{page.title}}</h1>
+
+{{&content}}
+
+<ul class="posts">
+  {{#sort section.children 'markdown.matter.date'}}
+    <li class="post">
+      <article>
+        <h3>
+          <a href="{{outputURL}}">{{markdown.matter.title}}</a>
+        </h3>
+        <p>{{dateformat markdown.matter.date 'D MMMM YYYY'}}</p>
+      </article>
+    </li>
+  {{/sort}}
+</ul>

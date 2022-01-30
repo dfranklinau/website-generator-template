@@ -1,0 +1,23 @@
+{
+  "baseURL": "http://localhost",
+  "errorDocument404Title": "404",
+  "menu": {
+    "main": {
+      "items": [
+        {
+          "href": "/",
+          "title": "Home"
+        },
+        {
+          "href": "/blog/",
+          "title": "Blog"
+        },
+        {
+          "href": "/about/",
+          "title": "About"
+        }
+      ]
+    }
+  },
+  "title": "Website"
+}

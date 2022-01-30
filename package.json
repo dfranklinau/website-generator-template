@@ -1,0 +1,27 @@
+{
+  "author": "Daniel Franklin <git@danielfranklin.id.au>",
+  "bugs": {
+    "url": "https://github.com/dfranklinau/website-generator-template/issues/"
+  },
+  "dependencies": {
+    "stylelint": "14.3.0",
+    "website-generator": "github:dfranklinau/website-generator#v1.0.0-alpha.5"
+  },
+  "description": "A working example of website-generator with a simple theme.",
+  "engines": {
+    "node": "14.15.3",
+    "npm": "7.21.0"
+  },
+  "homepage": "https://github.com/dfranklinau/website-generator-template/",
+  "license": "ISC",
+  "name": "website-generator-template",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfranklinau/website-generator-template/"
+  },
+  "scripts": {
+    "start": "website-generator"
+  },
+  "version": "1.0.0"
+}
